@@ -43,6 +43,7 @@
 .nav-links li a{
     text-decoration: none;
     color: #8987A1;
+    font-size: 20px;
 }
 .nav-links li:first-child a{
     color: rgba(37, 36, 50, 1);
@@ -58,16 +59,20 @@
     text-decoration: none;
     color: black;
     font-weight: 500;
+    font-size: 20px;
 }
 /* Header media query */
 
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
     .container{
         align-items: center;
     } 
     .nav{
         display: none;
-    }   
+    }
+    .cart{
+        padding-top: 30px;
+    } 
 }
 
 /* Banner Styles */
@@ -104,7 +109,7 @@
 }
 
 /* Banner media query */
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
     .banner-container{
         flex-direction: column-reverse;
         width: fit-content;
@@ -112,7 +117,7 @@
     .banner,
     .banner-title{
         padding-top: 30px;
-        font-size: 45px
+        font-size: 45px;
     }
     .banner-column{
         padding: 0px 20px;
@@ -124,3 +129,80 @@
 }
 
 /* Our Plants styles */
+
+.plants{
+    margin-top: 40px;
+}
+.plants-container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.plants-info{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.items-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    /* display: flex; */
+    /* gap: 20px; */
+    /* flex-wrap: wrap; */
+}
+.plant-item{
+    margin-top: 30px;
+    text-align: center;
+}
+.plant-item img{
+    max-width: 100%;
+}
+.plants-title{
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+.plants-title span{
+    color: #E95A08;
+}
+.plants-description{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+}
+.plant-name{
+    color: #111111;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 10px;
+}
+.plant-price{
+    color: #111111;
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.plant-button{
+    color: #FFFFFF;
+    background-color: #E95A08;
+    border: none;
+    padding: 20px 90px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+/* Plants section media query */
+
+@media screen and (max-width: 576px) {
+    .items-container{
+        grid-template-columns: 1fr 1fr;
+        max-width: fit-content;
+        gap: 0px;
+        grid-auto-rows: auto
+    }
+    .plant-item{
+        text-align: center;
+        padding: 0 10px;
+    }
+    .plant-button{
+        padding: 20px 68px;
+    }
+}
