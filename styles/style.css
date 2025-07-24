@@ -143,7 +143,7 @@
 }
 .items-container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     /* display: flex; */
     /* gap: 20px; */
@@ -193,7 +193,7 @@
 
 @media screen and (max-width: 576px) {
     .items-container{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
         max-width: fit-content;
         gap: 0px;
         grid-auto-rows: auto
