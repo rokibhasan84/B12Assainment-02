@@ -194,7 +194,7 @@
 @media screen and (max-width: 576px) {
     .items-container{
         grid-template-columns: repeat(2, 1fr);
-        max-width: fit-content;
+        width: 100%;
         gap: 0px;
         grid-auto-rows: auto
     }
@@ -364,7 +364,7 @@
     }
     .deal-3, .deal-1, .deal-2{
         width: 100%;
-    height: 300px;
+    height: 250px;
     }
     .deal-item{
         padding: 15px;
@@ -377,4 +377,67 @@
         font-size: 16px;
     }
 }
+/* Join-Us section*/
+.Join-Us{
+     margin-top: 90px;
+}
+.join-us-container{
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)),
+    url(/assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.join-us-title{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Noto serif", serif;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+.join-us-form input{
+    width: 450px;
+    height: 40px;
+    padding: 0 20px;
+    border: none;
+    font-size: 16px;
+}
+.join-us-form button{
+    width: 150px;
+    height: 40px;
+    background-color: #E95A08;
+    border: none;
+    margin-left: -3px;
+    color: #FFFFFF;
+    font-size: 16px;
+}
 
+/* join-us media query */
+
+@media screen and (max-width: 576px) {
+        .join-us-container{
+            width: 100%;
+            /* padding: 0;
+            margin: 0; */
+        }
+        .join-us-form input{
+            width: 250px;
+    height: 40px;
+        }
+        .join-us-title{
+            font-size: 30px;
+    font-weight: bold;
+    font-family: "Noto serif", serif;
+        }
+        .join-us-form button{
+             width: 120px;
+        }
+
+}
