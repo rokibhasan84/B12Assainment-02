@@ -192,11 +192,12 @@
 /* Plants section media query */
 
 @media screen and (max-width: 576px) {
+    .plants-container{
+        width: 100%;
+    }
     .items-container{
         grid-template-columns: repeat(2, 1fr);
-        width: 100%;
         gap: 0px;
-        grid-auto-rows: auto
     }
     .plant-item{
         text-align: center;
