@@ -204,7 +204,10 @@
         padding: 0 10px;
     }
     .plant-button{
-        padding: 20px 68px;
+    
+        font-size: 16px;
+        font-weight: 600;
+        padding: 20px 28px;
     }
 }
 
@@ -295,8 +298,8 @@
 }
 
 .deal-1{
-    background-image: /*linear-gradient(rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)), */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)),
     url(/assets/deal-bloom.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -314,8 +317,8 @@
     font-family: "Noto serif", serif;
 }
 .deal-2{
-    background-image: /*linear-gradient(rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)), */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)),
     url(/assets/deal-ana.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -332,8 +335,8 @@
     font-family: "Noto serif", serif;
 }
 .deal-3{
-    background-image: /*linear-gradient(rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)), */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)),
     url(/assets/deal-zabo.png);
     background-repeat: no-repeat;
     background-size: cover;
