@@ -223,6 +223,24 @@
     justify-content: space-between;
     max-width: 1140px;
     margin: 0 auto;
+    position: relative;
+}
+.plants-lover-badge{
+    max-width: 230px;
+    max-height: 230px;
+    left: 295px;
+    top: -90px;
+    position: absolute;
+    animation: spin 30s linear infinite;
+    z-index: 10;
+}
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }
 .plants-lover-container img{
     width: 510px;
