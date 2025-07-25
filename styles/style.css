@@ -228,7 +228,7 @@
 .plants-lover-badge{
     max-width: 230px;
     max-height: 230px;
-    left: 295px;
+    left: 235px;
     top: -90px;
     filter: drop-shadow();
     position: absolute;
@@ -245,7 +245,7 @@
 }
 .plants-lover-container img{
     width: 510px;
-    height: 590px;
+    height: 500px;
 
 }
 .plants-lover-info{
