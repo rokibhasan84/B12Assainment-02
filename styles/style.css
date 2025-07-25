@@ -230,6 +230,7 @@
     max-height: 230px;
     left: 295px;
     top: -90px;
+    filter: drop-shadow();
     position: absolute;
     animation: spin 30s linear infinite;
     z-index: 10;
@@ -273,6 +274,11 @@
     }
     .plants-lover{
         padding: 50px 15px 0px 15px;
+    }
+    .plants-lover-badge{
+        display: none;
+        right: 50px;
+        top: -75px;
     }
 
 }
