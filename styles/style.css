@@ -275,10 +275,16 @@
     .plants-lover{
         padding: 50px 15px 0px 15px;
     }
+    .plants-lover-title{
+        font-size: 25px;
+    }
     .plants-lover-badge{
         display: none;
         right: 50px;
         top: -75px;
+    }
+    .plants-lover-info{
+        padding: 10px ;
     }
 
 }
@@ -515,7 +521,12 @@
     .footer-container{
         /* width: 100%; */
         grid-template-columns: repeat(1, 1fr);
-        padding-left: 20px;
+    }
+    .footer-social, .footer-links{
+        padding-left: 15px;
+    }
+    .footer-info{
+        padding-left: 27px;
     }
 }
 
