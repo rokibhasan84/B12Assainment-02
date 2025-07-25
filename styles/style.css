@@ -300,7 +300,7 @@
 .deal-1{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)),
-    url(./assets/deal-bloom.png);
+    url(../assets/deal-bloom.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -319,7 +319,7 @@
 .deal-2{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)),
-    url(./assets/deal-ana.png);
+    url(../assets/deal-ana.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 350px;
@@ -337,7 +337,7 @@
 .deal-3{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)),
-    url(./assets/deal-zabo.png);
+    url(../assets/deal-zabo.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 720px;
@@ -390,7 +390,7 @@
     height: 400px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)),
-    url(./assets/news-letter-bg.png);
+    url(../assets/news-letter-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
